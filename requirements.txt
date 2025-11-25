@@ -1,0 +1,29 @@
+# 智能Python学习助手 - 依赖包
+
+# AI功能依赖（必需）
+openai>=1.0.0
+
+# 图标功能依赖
+Pillow>=8.0.0
+
+# SQLite数据分析功能依赖
+Flask>=2.3.0
+Flask-CORS>=4.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
+
+# 其他功能均使用Python标准库，无需额外安装
+# - tkinter (GUI框架，Python内置)
+# - sqlite3 (数据库，Python内置)
+# - threading (多线程，Python内置)
+# - logging (日志系统，Python内置)
+
+# 安装方式
+# pip install -r requirements.txt
+# 或者分别安装：
+# pip install openai Pillow Flask Flask-CORS pandas numpy requests
+
+# 系统要求
+# Python 3.7+
+# Windows/Linux/macOS
